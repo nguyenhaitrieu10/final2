@@ -207,5 +207,7 @@ def check_safe(image_path):
         print(max_dept)
 
     print("--- %s seconds ---" % (time.time() - start_time))
-
-check_safe("images/sample5.jpg")
+    return
+check_safe("images/sample4.jpg")
+# check_safe("images/sample3.jpg")
+# check_safe("images/sample4.jpg")
